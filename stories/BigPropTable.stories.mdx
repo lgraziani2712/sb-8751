@@ -1,0 +1,14 @@
+import { Story, Meta, Props, Preview } from "@storybook/addon-docs/blocks";
+
+import './scrollableTable.css';
+import ButtonGroup from "./ButtonGroup";
+
+<Meta title="Big PropsTable" component={ButtonGroup} />
+
+<Props of={ButtonGroup} />
+
+<Preview>
+  <Story name="Default">
+    <ButtonGroup>Teeeeeext</ButtonGroup>
+  </Story>
+</Preview>

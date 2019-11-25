@@ -1,0 +1,21 @@
+.docblock-propstable {
+  table-layout: fixed !important;
+  width: initial !important;
+}
+
+.docblock-propstable tbody {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  height: 400px;
+}
+
+.docblock-propstable tr {
+  display: grid;
+  grid-template-columns: 200px 2fr min-content;
+}
+
+.docblock-propstable td {
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}

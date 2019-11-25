@@ -1,0 +1,34 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# HTTPS Certification
+cert
+
+# Type definitions
+flow-typed/npm
+
+# dependencies
+node_modules
+.yarn-cache
+
+# testing
+docs
+
+# production
+temp/**/*.*
+static/images/**/*.*
+!static/images/no-image.svg
+!static/images/unik.png
+dist
+logs
+*.jasper
+
+# misc
+.DS_Store
+.env*
+!.env.changeme
+!.keep
+*.bak
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
